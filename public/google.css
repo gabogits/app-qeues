@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #e8e8e8;
+    margin: 0;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.container {
+    width: 408px;
+    background-color: white;
+    height: 100vh;
+}
+
+.container__header {
+    background-color: #3e82f7;
+    padding: 8px 8px 0 8px;
+}
+
+.search {
+    padding: 0 10px;
+    width: 100%;
+    height: 48px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -1px 0px rgba(0, 0, 0, 0.02);
+    font-family: 'Roboto';
+}
+
+.search:focus {
+    outline: 0;
+}
+
+.section {
+    color: white;
+    font-size: 12px;
+    padding: 12px 7px;
+}
+
+.section__title {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.options {
+    background-color: #3367D6;
+    padding: 16px 25px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+
+.options__button {
+    font-weight: 500;
+}
+
+.restaurant {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow-y: scroll;
+    height: calc(100vh - 228px);
+    padding-bottom: 38px;
+}
+
+.restaurant__item {
+    font-size: 13px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #8c8c8c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant__cover {
+    display: block;
+    width: 80px;
+    height: auto;
+}
+
+.restaurant__item h4,
+.restaurant__item p {
+    margin: 0;
+}
+
+.restaurant__name {
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
+.restaurant__ad {
+    background-color: #9572cf;
+    color: white;
+    border-radius: 2px;
+    padding: 1px 3px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-right: 5px;
+}
+
+.restaurant .fa-star {
+    color: #e97100;
+}
+
+.restaurant__rating {
+    color: #BBB;
+}
+
+.restaurant p {
+    line-height: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 408px;
+}
+
+footer p {
+    background-color: white;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8c8c8c;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
